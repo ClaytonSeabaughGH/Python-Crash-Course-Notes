@@ -2,6 +2,7 @@
 name = "ada lovelace"
 print(name.title())
 
+# Upper and Lower methods change a string to be all upper or lower case
 name = "Ada Lovelace"
 print(name.upper())
 print(name.lower())
