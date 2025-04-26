@@ -47,3 +47,37 @@ print(sorry_message)
 del names[0]
 del names[1]
 print(names)
+
+# 3-8
+
+# Store places you would like to visit in a list
+places = ['London', 'Japan', 'Ireland', 'Switzerland']
+print(places)
+
+# Print list in alphabetical order and print original list to show that it is the same
+print(sorted(places))
+print(places)
+
+# Print list in reverse order and print original list to show that it is the same
+print(sorted(places,reverse=True))
+print(places)
+
+# Use reverse() to print list in reverse order
+places.reverse()
+print(places)
+
+# Use reverse() to put list back original order
+places.reverse()
+print(places)
+
+# Put places in alphabetical order using sort()
+places.sort()
+print(places)
+
+# Put list in reverse 
+places.sort(reverse=True)
+print(places)
+
+# 3-9 Use len() to find the length of the names list
+print(len(names))
+
